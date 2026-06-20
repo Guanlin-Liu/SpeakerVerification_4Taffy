@@ -1,0 +1,32 @@
+# 先单独装 CPU 版 PyTorch（见 README）：
+#   pip install torch==2.12.0 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.12.0
+torchaudio==2.11.0
+
+# 声纹与音频处理
+speechbrain==1.1.0
+librosa==0.11.0
+soundfile==0.14.0
+scikit-learn==1.9.0
+numpy==2.4.6
+
+# 人声分离
+demucs==4.0.1
+
+# 出图（make_figures.py）
+matplotlib==3.11.0
+
+# CAM++（中文 CN-Celeb 模型）经 modelscope + 其运行期依赖
+modelscope==1.37.1
+addict==2.4.0
+simplejson==4.1.1
+sortedcontainers==2.4.0
+yapf==0.43.0
+datasets==5.0.0
+oss2==2.19.1
+pillow==12.2.0
+einops==0.8.2
+python-dateutil==2.9.0.post0
+
+# 下载工具（可选）：也可直接用你其他环境里现成的 yt-dlp
+# yt-dlp

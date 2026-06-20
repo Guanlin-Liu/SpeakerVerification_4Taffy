@@ -1,0 +1,24 @@
+# 大数据与生成物（体积大 / 涉及版权与隐私 / 可重建）—— 本地保留，不上传
+audio/
+audio_vocals/
+models/
+results/
+tables/
+
+# 本项目专属视频/个人资产（个人数据、克隆语音、立绘、BGM 等——版权与肖像权，不公开）
+video/
+
+# 注：figures/（4 组 model×data 的结果图）作为示例结果有意保留并提交，不在此忽略
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 临时
+_*/
+*.tmp
+
+# 系统
+.DS_Store
+Thumbs.db
