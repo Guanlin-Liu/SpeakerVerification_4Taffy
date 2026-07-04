@@ -21,7 +21,7 @@ import sys
 import shutil
 import subprocess
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 _CANDIDATES = [
     os.environ.get("YT_DLP"),

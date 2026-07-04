@@ -24,7 +24,7 @@ os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
 logging.getLogger("modelscope").setLevel(logging.ERROR)
 
 # ----------------------------- 参数（与 analyze.py 保持一致）-----------------------------
-ROOT      = os.path.dirname(os.path.abspath(__file__))
+ROOT      = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 AUDIO_DIR = os.path.join(ROOT, sys.argv[1] if len(sys.argv) > 1 else "audio")
 OUT_DIR   = os.path.join(ROOT, "results")
 SR        = 16000

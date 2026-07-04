@@ -21,7 +21,7 @@ import torch
 from demucs.pretrained import get_model
 from demucs.apply import apply_model
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 torch.set_num_threads(max(1, os.cpu_count() or 1))
 
 src_arg = sys.argv[1] if len(sys.argv) > 1 else "audio"

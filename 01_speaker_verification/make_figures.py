@@ -24,7 +24,7 @@ plt.rcParams.update({
     "axes.spines.top": False, "axes.spines.right": False,
 })
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIG = os.path.join(ROOT, "figures"); os.makedirs(FIG, exist_ok=True)
 TBL = os.path.join(ROOT, "tables"); os.makedirs(TBL, exist_ok=True)
 

@@ -1,14 +1,26 @@
 # 大数据与生成物（体积大 / 涉及版权与隐私 / 可重建）—— 本地保留，不上传
 audio/
 audio_vocals/
+audio_miaomiao_vocals/
+audio_evo/
+audio_evo_vocals/
 models/
 results/
 tables/
+
+# 02_voice_evolution 可再生中间产物（保留 manifest_main.tsv）
+02_voice_evolution/taffy_series.tsv
+02_voice_evolution/manifest_alt.tsv
+02_voice_evolution/*.log
 
 # 本项目专属视频/个人资产（个人数据、克隆语音、立绘、BGM 等——版权与肖像权，不公开）
 video/
 
 # 注：figures/（4 组 model×data 的结果图）作为示例结果有意保留并提交，不在此忽略
+
+# 永雏喵喵 soundalike 分析：暂不公开（figures/ 其余仍提交）
+figures/miaomiao_*.png
+01_speaker_verification/make_figures_miaomiao.py
 
 # Python
 __pycache__/
